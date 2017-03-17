@@ -3,7 +3,7 @@ body {
 }
 nav{
   text-align: left;
-  background-color: #5fcf80;
+  background-color: #22bd60;
   height:40px;
   padding-top: 10px;
 }
@@ -11,6 +11,26 @@ nav{
 .graph {
   background-image: url(/images/gh-graph2.png);
   height:75px;
+}
+
+.profile {
+  background-image: url(/images/profile.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-top: 15px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  float:left;
+}
+
+figcaption {
+  display:block;
+  margin-top: 250px;
+  font-family: "AvenirNextLTW01-Regular", "Avenir Next", sans-serif;
+  font-size: 0.8em
 }
 
 nav a{
@@ -43,15 +63,19 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color:#5fcf80;
+    color:#22bd60;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 2.0em;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "AvenirNextLTW01-Regular", "Avenir Next", sans-serif;
+}
+
+h3 {
+  float:left;
 }
 p {
     font-size: 1.2em;
@@ -67,6 +91,7 @@ footer {
 
 .date {
   color:#5fcf80;
+  float:right;
 }
 
 ul.posts {

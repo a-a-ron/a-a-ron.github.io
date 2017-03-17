@@ -3,12 +3,12 @@ layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>Aaron Stewart's Blog</title>
- <link href="http://a-a-ron.github.io/blog/atom.xml" rel="self"/>
- <link href="http://a-a-ron.github.io/blog"/>
+ <link href="http://a-a-ron.github.io/home/atom.xml" rel="self"/>
+ <link href="http://a-a-ron.github.io/home"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://a-a-ron.github.io/blog</id>
+ <id>http://a-a-ron.github.io/home</id>
  <author>
    <name>Aaron Stewart</name>
    <email>astewart.john@gmail.com</email>
@@ -23,5 +23,5 @@ layout: feed
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
